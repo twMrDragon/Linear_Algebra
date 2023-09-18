@@ -121,6 +121,7 @@ class Matrix:
     def isSymmetric(a):
         return a == Matrix.transpose(a)
     
+    # 列印矩陣
     def printMatrix(a):
         for row in a:
             print(row)
