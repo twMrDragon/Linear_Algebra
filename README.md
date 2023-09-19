@@ -1,4 +1,5 @@
 # Linear Algebra HW
 大二上線性代數作業\
-作業程式碼會保存在這裡\
-還會包含說明文件的Hackmd
+包含程式碼及說明文件
+
+* [作業1 說明文件](https://hackmd.io/@JOJOsephLin/HJ60uWUkT) 
