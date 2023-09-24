@@ -188,7 +188,7 @@ def printFooter():
 main()為程式進入點，進入main()後會呼叫QuestionA()\~QuestionF()，對應題目上不同的小題。進入QuestionA()\~QuestionF()時，會先呼叫printHeader()為題目開始做分割，中間進行運算並print結果後，最後呼叫printFooter()為題目結束做分割。每個Question()中的運算是呼叫上面Matrix中的函式來完成。
 
 ### 最終輸出結果
-```txt
+```
 ==================== Question A   
 A+3B:
 [-4, -2]
