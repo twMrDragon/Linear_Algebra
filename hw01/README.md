@@ -15,6 +15,7 @@
 - [程式說明](https://github.com/twMrDragon/Linear_Algebra/blob/main/hw01/README.md#程式說明)
     - [主要流程](https://github.com/twMrDragon/Linear_Algebra/blob/main/hw01/README.md#主要流程) 
     - [最終輸出結果](https://github.com/twMrDragon/Linear_Algebra/blob/main/hw01/README.md#最終輸出結果) 
+    - [迷因](https://github.com/twMrDragon/Linear_Algebra/blob/main/hw01/README.md#迷因) 
 <!-- /toc -->
 
 ## 宣告矩陣常數
