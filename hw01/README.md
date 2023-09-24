@@ -13,7 +13,8 @@
     - [是否為對稱矩陣](https://github.com/twMrDragon/Linear_Algebra/blob/main/hw01/README.md#是否為對稱矩陣)
     - [列印矩陣](https://github.com/twMrDragon/Linear_Algebra/blob/main/hw01/README.md#列印矩陣)
 - [程式說明](https://github.com/twMrDragon/Linear_Algebra/blob/main/hw01/README.md#程式說明)
-    - [流程](https://github.com/twMrDragon/Linear_Algebra/blob/main/hw01/README.md#主要流程) 
+    - [主要流程](https://github.com/twMrDragon/Linear_Algebra/blob/main/hw01/README.md#主要流程) 
+    - [最終輸出結果](https://github.com/twMrDragon/Linear_Algebra/blob/main/hw01/README.md#最終輸出結果) 
 <!-- /toc -->
 
 ## 宣告矩陣常數
@@ -184,5 +185,108 @@ def printFooter():
 
 ## 程式說明
 ### 主要流程
-main()為程式進入點，進入main()後會呼叫QuestionA()\~QuestionF()，對應題目上不同的小題。進入QuestionA()\~QuestionF()時，會先呼叫printHeader()為題目開始做分割，中間進行運算並輸出結果後，最後呼叫printFooter()為題目結束做分割。每個Question()中的運算是呼叫上面Matrix中的函式來完成。
-### QuestionA
+main()為程式進入點，進入main()後會呼叫QuestionA()\~QuestionF()，對應題目上不同的小題。進入QuestionA()\~QuestionF()時，會先呼叫printHeader()為題目開始做分割，中間進行運算並print結果後，最後呼叫printFooter()為題目結束做分割。每個Question()中的運算是呼叫上面Matrix中的函式來完成。
+
+### 最終輸出結果
+```txt
+==================== Question A   
+A+3B:
+[-4, -2]
+[3, 4]
+
+C-2B*E^t:
+[7, 14.566370614359172, -8]       
+[8, -1.806179973983887, -15]      
+
+A^T:
+[2, 3]
+[-2, -5]
+====================
+
+==================== Question B   
+Matrix M:
+[-4, -6]
+[-6, -15]
+
+Matrix N:
+[-4, 4]
+[9, -15]
+
+Matrix M is not equal to Matrix N.
+====================
+
+==================== Question C   
+Matrix P:
+[2, 6]
+[-4, 0]
+[0, 9]
+
+Matrix Q:
+[2, 6]
+[-4, 0]
+[0, 9]
+
+Matrix P is equal to Matrix Q.    
+====================
+
+==================== Question D   
+Matrix A^-1:
+[1.25, -0.5]
+[0.75, -0.5]
+
+Matrix B^-1:
+[-0.5, -0.0]
+[-0.0, 0.3333333333333333]
+====================
+
+==================== Question E
+Matrix A:
+[2, -2]
+[3, -5]
+Matrix A is not diagonal.
+
+Matrix B:
+[-2, 0]
+[0, 3]
+Matrix B is diagonal.
+
+Matrix F:
+[1, 2, 3]
+[2, 3, 4]
+[3, 5, 7]
+Matrix F is not diagonal.
+
+Matrix I:
+[1, 0, 0]
+[0, 1, 0]
+[0, 0, 1]
+Matrix I is diagonal.
+====================
+
+==================== Question F
+Matrix A:
+[2, -2]
+[3, -5]
+Matrix A is not symmetric.
+
+Matrix B:
+[-2, 0]
+[0, 3]
+Matrix B is symmetric.
+
+Matrix F:
+[1, 2, 3]
+[2, 3, 4]
+[3, 5, 7]
+Matrix F is not symmetric.
+
+Matrix I:
+[1, 0, 0]
+[0, 1, 0]
+[0, 0, 1]
+Matrix I is symmetric.
+====================
+```
+## 迷因
+基於物件導向程式設計在作業說明有放迷因，所以這裡出現這個。\
+![image](https://github.com/twMrDragon/Linear_Algebra/blob/main/hw01/hw1_meme.png)
