@@ -164,6 +164,7 @@ def questionA():
 
 def questionB():
     printHeader("Question B")
+
     # M = A*B
     matrixM = Matrix.multiply(Matrix.A, Matrix.B)
     # N = B*A
@@ -176,6 +177,7 @@ def questionB():
     Matrix.printMatrix(matrixN)
     print()
     print("Matrix M is not equal to Matrix N.")
+
     printFooter()
     print()
 
@@ -199,11 +201,13 @@ def questionC():
     Matrix.printMatrix(matrixQ)
     print()
     print("Matrix P is equal to Matrix Q.")
+
     printFooter()
     print()
 
 def questionD():
     printHeader("Question D")
+
     print("Matrix A^-1:")
     # A^-1
     Matrix.printMatrix(Matrix.inverses(Matrix.A))
@@ -211,11 +215,13 @@ def questionD():
     print("Matrix B^-1:")
     # B^-1
     Matrix.printMatrix(Matrix.inverses(Matrix.B))
+
     printFooter()
     print()
 
 def questionE():
     printHeader("Question E")
+
     # Matrix A
     print("Matrix A:")
     Matrix.printMatrix(Matrix.A)
@@ -224,6 +230,7 @@ def questionE():
     else:
         print("Matrix A is not diagonal.")
     print()
+
     # Matrix B
     print("Matrix B:")
     Matrix.printMatrix(Matrix.B)
@@ -232,6 +239,7 @@ def questionE():
     else:
         print("Matrix B is not diagonal.")
     print()
+
     # Matrix F
     print("Matrix F:")
     Matrix.printMatrix(Matrix.F)
@@ -240,6 +248,7 @@ def questionE():
     else:
         print("Matrix F is not diagonal.")
     print()
+
     # Matrix I
     print("Matrix I:")
     Matrix.printMatrix(Matrix.I)
@@ -253,6 +262,7 @@ def questionE():
 
 def questionF():
     printHeader("Question F")
+
     # Matrix A
     print("Matrix A:")
     Matrix.printMatrix(Matrix.A)
@@ -261,6 +271,7 @@ def questionF():
     else:
         print("Matrix A is not symmetric.")
     print()
+
     # Matrix B
     print("Matrix B:")
     Matrix.printMatrix(Matrix.B)
@@ -269,6 +280,7 @@ def questionF():
     else:
         print("Matrix B is not symmetric.")
     print()
+
     # Matrix F
     print("Matrix F:")
     Matrix.printMatrix(Matrix.F)
@@ -277,6 +289,7 @@ def questionF():
     else:
         print("Matrix F is not symmetric.")
     print()
+    
     # Matrix I
     print("Matrix I:")
     Matrix.printMatrix(Matrix.I)

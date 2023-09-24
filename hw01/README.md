@@ -1,5 +1,5 @@
 # hw1 說明文件
-
+## [GitHub](https://github.com/twMrDragon/Linear_Algebra/tree/main/hw01)
 <!-- toc -->
 - [宣告矩陣常數](https://github.com/twMrDragon/Linear_Algebra/blob/main/hw01/README.md#宣告矩陣常數)
 - [宣告矩陣方法](https://github.com/twMrDragon/Linear_Algebra/blob/main/hw01/README.md#宣告矩陣方法)
@@ -13,6 +13,7 @@
     - [是否為對稱矩陣](https://github.com/twMrDragon/Linear_Algebra/blob/main/hw01/README.md#是否為對稱矩陣)
     - [列印矩陣](https://github.com/twMrDragon/Linear_Algebra/blob/main/hw01/README.md#列印矩陣)
 - [程式說明](https://github.com/twMrDragon/Linear_Algebra/blob/main/hw01/README.md#程式說明)
+    - [流程](https://github.com/twMrDragon/Linear_Algebra/blob/main/hw01/README.md#主要流程) 
 <!-- /toc -->
 
 ## 宣告矩陣常數
@@ -138,7 +139,7 @@ def inverses(a):
     ans = Matrix.scale(ans,1/det)
     return ans
 ```
-把a~11~和a~22~交換位置，a~12~和a~21~加上負號，算出行列式(det)後，呼叫Matrix.scale()乘上1/det。
+把a<sub>11</sub>和a<sub>22</sub>交換位置，a<sub>12</sub>和a<sub>21</sub>加上負號，算出行列式(det)後，呼叫Matrix.scale()乘上1/det。
 ### 是否為對角矩陣
 ```python
 # 是否為對角矩陣
@@ -160,7 +161,7 @@ def isDiagonal(a):
 def isSymmetric(a):
     return a == Matrix.transpose(a)
 ```
-比較a矩陣及a^t^內容是否相等來判斷是否對稱。
+比較a矩陣及a<sup>t</sup>內容是否相等來判斷是否對稱。
 ### 列印矩陣
 ```python
 # 列印矩陣
@@ -182,4 +183,6 @@ def printFooter():
 在print答案後印出footer，用於分割不同題目。
 
 ## 程式說明
-main()為程式進入點，main()中分別呼叫QuestionA()\~QuestionF()，對應題目上不同的小題。進入QuestionA()\~QuestionF()時，會先呼叫printHeader()為題目開始做分割，中間進行運算並輸出結果後，最後呼叫printFooter()為題目結束做分割。中間的運算是呼叫上面說明的矩陣方法組合出題目的式子。
+### 主要流程
+main()為程式進入點，進入main()後會呼叫QuestionA()\~QuestionF()，對應題目上不同的小題。進入QuestionA()\~QuestionF()時，會先呼叫printHeader()為題目開始做分割，中間進行運算並輸出結果後，最後呼叫printFooter()為題目結束做分割。每個Question()中的運算是呼叫上面Matrix中的函式來完成。
+### QuestionA
