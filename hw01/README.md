@@ -15,7 +15,7 @@
 - [程式說明](https://github.com/twMrDragon/Linear_Algebra/blob/main/hw01/README.md#程式說明)
     - [主要流程](https://github.com/twMrDragon/Linear_Algebra/blob/main/hw01/README.md#主要流程) 
     - [最終輸出結果](https://github.com/twMrDragon/Linear_Algebra/blob/main/hw01/README.md#最終輸出結果) 
-    - [迷因](https://github.com/twMrDragon/Linear_Algebra/blob/main/hw01/README.md#迷因) 
+    - [作業迷因](https://github.com/twMrDragon/Linear_Algebra/blob/main/hw01/README.md#作業迷因) 
 <!-- /toc -->
 
 ## 宣告矩陣常數
@@ -288,6 +288,5 @@ Matrix I:
 Matrix I is symmetric.
 ====================
 ```
-## 迷因
-基於物件導向程式設計在作業說明有放迷因，所以這裡出現這個。\
+## 作業迷因
 ![image](https://github.com/twMrDragon/Linear_Algebra/blob/main/hw01/hw1_meme.png)
