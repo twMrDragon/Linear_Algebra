@@ -31,7 +31,7 @@ class Matrix:
     ]
     # constant end
 
-    # methon
+    # methods
     # 矩陣加法
     def add(a, b):
         rowLen = len(a)
@@ -216,41 +216,75 @@ def questionD():
 
 def questionE():
     printHeader("Question E")
+    # Matrix A
     print("Matrix A:")
     Matrix.printMatrix(Matrix.A)
-    print("Matrix A is not diagonal.")
+    if Matrix.isDiagonal(Matrix.A):
+        print("Matrix A is diagonal.")
+    else:
+        print("Matrix A is not diagonal.")
     print()
+    # Matrix B
     print("Matrix B:")
     Matrix.printMatrix(Matrix.B)
-    print("Matrix B is diagonal.")
+    if Matrix.isDiagonal(Matrix.B):
+        print("Matrix B is diagonal.")
+    else:
+        print("Matrix B is not diagonal.")
     print()
+    # Matrix F
     print("Matrix F:")
     Matrix.printMatrix(Matrix.F)
-    print("Matrix F is not diagonal.")
+    if Matrix.isDiagonal(Matrix.F):
+        print("Matrix F is diagonal.")
+    else:
+        print("Matrix F is not diagonal.")
     print()
+    # Matrix I
     print("Matrix I:")
     Matrix.printMatrix(Matrix.I)
-    print("Matrix I is diagonal.")
+    if Matrix.isDiagonal(Matrix.I):
+        print("Matrix I is diagonal.")
+    else:
+        print("Matrix I is not diagonal.")
+
     printFooter()
     print()
 
 def questionF():
     printHeader("Question F")
+    # Matrix A
     print("Matrix A:")
     Matrix.printMatrix(Matrix.A)
-    print("Matrix A is not symmetric.")
+    if Matrix.isSymmetric(Matrix.A):
+        print("Matrix A is symmetric.")
+    else:
+        print("Matrix A is not symmetric.")
     print()
+    # Matrix B
     print("Matrix B:")
     Matrix.printMatrix(Matrix.B)
-    print("Matrix B is symmetric.")
+    if Matrix.isSymmetric(Matrix.B):
+        print("Matrix B is symmetric.")
+    else:
+        print("Matrix B is not symmetric.")
     print()
+    # Matrix F
     print("Matrix F:")
     Matrix.printMatrix(Matrix.F)
-    print("Matrix F is not symmetric.")
+    if Matrix.isSymmetric(Matrix.F):
+        print("Matrix F is symmetric.")
+    else:
+        print("Matrix F is not symmetric.")
     print()
+    # Matrix I
     print("Matrix I:")
     Matrix.printMatrix(Matrix.I)
-    print("Matrix I is symmetric.")
+    if Matrix.isSymmetric(Matrix.B):
+        print("Matrix I is symmetric.")
+    else:
+        print("Matrix I is not symmetric.")
+
     printFooter()
 
 def main():
