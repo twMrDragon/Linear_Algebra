@@ -1,21 +1,19 @@
 # hw1 說明文件
-## [GitHub](https://github.com/twMrDragon/Linear_Algebra/tree/main/hw01)
 <!-- toc -->
-- [宣告矩陣常數](https://github.com/twMrDragon/Linear_Algebra/blob/main/hw01/README.md#宣告矩陣常數)
-- [宣告矩陣方法](https://github.com/twMrDragon/Linear_Algebra/blob/main/hw01/README.md#宣告矩陣方法)
-    - [矩陣加法](https://github.com/twMrDragon/Linear_Algebra/blob/main/hw01/README.md#矩陣加法)
-    - [矩陣減法](https://github.com/twMrDragon/Linear_Algebra/blob/main/hw01/README.md#矩陣減法)
-    - [矩陣旋轉](https://github.com/twMrDragon/Linear_Algebra/blob/main/hw01/README.md#矩陣旋轉)
-    - [矩陣相乘](https://github.com/twMrDragon/Linear_Algebra/blob/main/hw01/README.md#矩陣相乘)
-    - [矩陣乘數字](https://github.com/twMrDragon/Linear_Algebra/blob/main/hw01/README.md#矩陣乘數字)
-    - [矩陣倒數 2*2](https://github.com/twMrDragon/Linear_Algebra/blob/main/hw01/README.md#矩陣倒數2*2)
-    - [是否為對角矩陣](https://github.com/twMrDragon/Linear_Algebra/blob/main/hw01/README.md#是否為對角矩陣)
-    - [是否為對稱矩陣](https://github.com/twMrDragon/Linear_Algebra/blob/main/hw01/README.md#是否為對稱矩陣)
-    - [列印矩陣](https://github.com/twMrDragon/Linear_Algebra/blob/main/hw01/README.md#列印矩陣)
-- [程式說明](https://github.com/twMrDragon/Linear_Algebra/blob/main/hw01/README.md#程式說明)
-    - [主要流程](https://github.com/twMrDragon/Linear_Algebra/blob/main/hw01/README.md#主要流程) 
-    - [最終輸出結果](https://github.com/twMrDragon/Linear_Algebra/blob/main/hw01/README.md#最終輸出結果) 
-    - [作業迷因](https://github.com/twMrDragon/Linear_Algebra/blob/main/hw01/README.md#作業迷因) 
+- 宣告矩陣常數
+- 宣告矩陣方法
+    - 矩陣加法
+    - 矩陣減法
+    - 矩陣旋轉
+    - 矩陣相乘
+    - 矩陣乘數字
+    - 矩陣倒數 2*2
+    - 是否為對角矩陣
+    - 是否為對稱矩陣
+    - 列印矩陣
+- 程式說明
+    - 主要流程
+    - 最終輸出結果
 <!-- /toc -->
 
 ## 宣告矩陣常數
@@ -288,5 +286,3 @@ Matrix I:
 Matrix I is symmetric.
 ====================
 ```
-## 作業迷因
-![image](https://github.com/twMrDragon/Linear_Algebra/blob/main/hw01/hw1_meme.png)
